@@ -1,0 +1,27 @@
+/*
+  default: #ef5350
+  light: #ff867c
+  dark: #b61827
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+body {
+  background-color: #000000;
+  background-image: url('img/LangstonHughes.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 24px;
+  font-family: 'Roboto';
+  font-weight: 900;
+}
+
+.contents-container {
+
+}
