@@ -15,15 +15,10 @@ body {
   width: 100%;
   height: 100%;
   background-color: #000000;
-  background-image: url('img/LangstonHughes.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   padding: 24px;
   font-family: 'Roboto';
   font-weight: 900;
-}
-
-.contents-container {
-
 }
