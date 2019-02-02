@@ -115,3 +115,14 @@ bottom_right.style = `
   text-align: right;
 `;
 body.appendChild(bottom_right);
+
+var bottom_left = document.createElement('a');
+bottom_left.innerHTML = 'feedback';
+bottom_left.href = 'mailto:blackbirthdays@gmail.com';
+bottom_left.style.textDecoration = 'none';
+bottom_left.style.color = '#000000';
+bottom_left.style.position = 'absolute';
+bottom_left.style.left = 24;
+bottom_left.style.bottom = 24;
+bottom_left.style.fontWeight = '400';
+body.appendChild(bottom_left);
