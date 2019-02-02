@@ -34,8 +34,8 @@ var people = [
     'link': 'https://www.notablebiographies.com/A-An/Aaron-Hank.html'
   },
 ];
-var now = new Date();
-var person = people[now.getDate() - 1];
+// var now = new Date();
+var person = people[1];
 var is_mobile = (window.innerWidth || body.innerWidth) < 700;
 
 // set up for link preview
