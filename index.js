@@ -34,24 +34,15 @@ var people = [
     'link': 'https://www.notablebiographies.com/A-An/Aaron-Hank.html'
   },
 ];
-// var now = new Date();
-var person = people[1];
+var now = new Date();
+var person = people[now.getDate() - 1];
 var is_mobile = (window.innerWidth || body.innerWidth) < 700;
-
-// set up for link preview
-var og_title = document.createElement('meta');
-og_title.setAttribute('property', 'og:title');
-og_title.setAttribute('content', 'Happy Birthday, ' + person.name + '!');
-document.head.appendChild(og_title);
-
-var og_image = document.createElement('meta');
-og_image.setAttribute('property', 'og:image');
-og_image.setAttribute('content', '/img/' + person.name.split(' ').join('') + '.jpg');
-document.head.appendChild(og_image);
+var padding = is_mobile ? '16px' : '24px';
 
 // set the background
 var body = document.body;
 body.style.backgroundImage = 'url(\'/img/' + person.name.split(' ').join('') + '.jpg\')';
+body.style.padding = padding;
 
 // draw the other things
 var opaque = document.createElement('div');
@@ -74,7 +65,7 @@ body.appendChild(happy_birthday);
 
 var person_name = document.createElement('div');
 person_name.style.color = '#000000';
-person_name.style.fontSize = is_mobile ? '4.5rem' : '5rem';
+person_name.style.fontSize = is_mobile ? '4rem' : '5rem';
 person_name.innerHTML = person.name;
 body.appendChild(person_name);
 
@@ -106,14 +97,12 @@ body.appendChild(read_more);
 
 var bottom_right = document.createElement('div');
 bottom_right.innerHTML = 'February is<br>Black History Month.';
-bottom_right.style = `
-  color: #000000;
-  font-size: 2rem;
-  position: absolute;
-  right: 24px;
-  bottom: 20;
-  text-align: right;
-`;
+bottom_right.style.color = '#000000';
+bottom_right.style.fontSize = is_mobile ? '1.5rem' : '2rem';
+bottom_right.style.position = 'absolute';
+bottom_right.style.right = is_mobile ? '16px' : '24px';
+bottom_right.style.bottom = is_mobile ? '16px' : '24px';
+bottom_right.style.textAlign = 'right';
 body.appendChild(bottom_right);
 
 var bottom_left = document.createElement('a');
@@ -122,7 +111,7 @@ bottom_left.href = 'mailto:blackbirthdays@gmail.com';
 bottom_left.style.textDecoration = 'none';
 bottom_left.style.color = '#000000';
 bottom_left.style.position = 'absolute';
-bottom_left.style.left = 24;
-bottom_left.style.bottom = 24;
+bottom_left.style.left = padding;
+bottom_left.style.bottom = padding;
 bottom_left.style.fontWeight = '400';
 body.appendChild(bottom_left);
