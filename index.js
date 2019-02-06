@@ -33,6 +33,38 @@ var people = [
     'about': 'Major league baseball\'s leading home run hitter, with a career total of 755 home runs from 1954 to 1976. He also broke ground for the participation of African Americans in professional sports.',
     'link': 'https://www.notablebiographies.com/A-An/Aaron-Hank.html'
   },
+  {
+    "name": "Melvin Tolson",
+    "birth": "2.6.1898",
+    "death": "8.29.1966",
+    "about": "Known as one of the most significant African American modernist poets of his time. In addition, Tolson’s work as an educator led Langston Hughes to declare him \"the most famous Negro Professor in the Southwest\" in the mid-twentieth century.",
+    "link": "https://blackpast.org/aaw/tolson-melvin-b-1898-1966"
+  },
+  {
+    "name": "Chris Rock",
+    "birth": "2.7.1965",
+    "about": "Was discovered at 18 by Eddie Murphy at New York's Comedy Strip. He went on to appear in films and on Saturday Night Live, and soon released his first comedy album.",
+    "link": "https://www.biography.com/people/chris-rock-9542306"
+  },
+  {
+    "name": "Gary Coleman",
+    "birth": "2.8.1968",
+    "death": "5.28.2010",
+    "about": "Became a star of the hit sitcom Diff'rent Strokes in 1978 at age 10 playing the character Arnold Jackson. Coleman's common exclamation on the show, \"What'choo talkin' 'bout, Willis?\", quickly became a pop culture catch-phrase.",
+    "link": "https://www.biography.com/people/gary-coleman-15720749"
+  },
+  {
+    "name": "Alice Walker",
+    "birth": "2.9.1944",
+    "about": "The author of short stories and novels, essays and poetry and activist for racial civil rights, women’s equality and peace among other causes, Alice Walker brought black women’s lives into primary focus as a rich and important subject for US American literature.",
+    "link": "http://www.fembio.org/english/biography.php/woman/biography/alice-walker/"
+  },
+  {
+    "name": "Leontyne Price",
+    "birth": "2.10.1927",
+    "about": "Was the first African American singer to gain international stardom in opera, an art form previously reserved for the upper-class white society.",
+    "link": "https://www.notablebiographies.com/Pe-Pu/Price-Leontyne.html"
+  },
 ];
 var now = new Date();
 var person = people[now.getDate() - 1];
