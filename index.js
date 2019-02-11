@@ -64,6 +64,38 @@ var people = [
     "birth": "2.10.1927",
     "about": "Was the first African American singer to gain international stardom in opera, an art form previously reserved for the upper-class white society.",
     "link": "https://www.notablebiographies.com/Pe-Pu/Price-Leontyne.html"
+  },{
+    "name": "Daniel James",
+    "birth": "2.11.1920",
+    "death": "2.25.1978",
+    "about": "Was the first African American to become a four-star general in the U.S. Air Force and instructed African American pilots during WWII.",
+    "link": "https://www.biography.com/people/daniel-james-jr-9352497"
+  },
+  {
+    "name": "Arsenio Hall",
+    "birth": "2.12.1956",
+    "about": "Best known as the first black late-night talk show host. His groundbreaking talk show The Arsenio Hall Show ran from 1989-1994.",
+    "link": "https://www.biography.com/people/arsenio-hall-9542195"
+  },
+  {
+    "name": "Emmett J Scott",
+    "birth": "2.13.1873",
+    "death": "12.12.1957",
+    "about": "Garnered a reputation as Booker T. Washington’s chief aide.  He was also the highest ranking African American in the Woodrow Wilson’s Administration.",
+    "link": "https://blackpast.org/aah/scott-emmett-j-1873-1957"
+  },
+  {
+    "name": "Frederick Douglass",
+    "birth": "c. 2.14.1818",
+    "death": "2.20.1895",
+    "about": "Became one of the most famous intellectuals of his time, advising presidents and lecturing to thousands on a range of causes, including women’s rights and Irish home rule.",
+    "link": "https://www.biography.com/people/frederick-douglass-9278324"
+  },
+  {
+    "name": "Brian Holland",
+    "birth": "2.15.1941",
+    "about": "Helped pioneer the classic Motown sound of the 1960s. His songs, including “Stop! In the Name of Love,” “Baby I Need Your Loving’ and “Come See About Me” became hit recordings for the Supremes, the Four Tops and Martha & the Vandellas.",
+    "link": "https://www.songhall.org/profile/Brian_Holland"
   },
 ];
 var now = new Date();
