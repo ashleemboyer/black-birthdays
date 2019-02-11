@@ -98,6 +98,7 @@ var people = [
     "link": "https://www.songhall.org/profile/Brian_Holland"
   },
 ];
+
 var now = new Date();
 var person = people[now.getDate() - 1];
 var is_mobile = (window.innerWidth || body.innerWidth) < 700;
