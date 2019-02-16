@@ -97,6 +97,12 @@ var people = [
     "about": "Helped pioneer the classic Motown sound of the 1960s. His songs, including “Stop! In the Name of Love,” “Baby I Need Your Loving’ and “Come See About Me” became hit recordings for the Supremes, the Four Tops and Martha & the Vandellas.",
     "link": "https://www.songhall.org/profile/Brian_Holland"
   },
+  {
+    "name": "Levar Burton",
+    "birth": "2.16.1957",
+    "about": "Two years into college, Burton was chosen for the lead role in the television miniseries Roots, which launched his career. In 1983, he became the host of PBS's Reading Rainbow, a show aimed at teaching young children to read that won five Emmy Awards over its more than 20-year run (1983-2009).",
+    "link": "https://www.biography.com/people/levar-burton-538182"
+  },
 ];
 
 var now = new Date();
