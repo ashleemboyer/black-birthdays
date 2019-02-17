@@ -115,10 +115,29 @@ var people = [
     "about": "American writer noted for her examination of black experience (particularly black female experience) within the black community. She received the Nobel Prize for Literature in 1993.",
     "link": "https://www.britannica.com/biography/Toni-Morrison"
   },
+  {
+    "name": "Smokey Robinson",
+    "birth": "2.19.1940",
+    "about": "A prolific songwriter, he is credited with 4,000 songs and 37 Top 40 hits, including \"Tears of a Clown,\" \"Tracks of My Tears,\" and \"Love Machine.\" Robinson also served as vice president of Motown records, writing and producing hits for groups such as The Temptations (\"My Girl\") and Mary Wells (\"My Guy\").",
+    "link": "https://www.biography.com/people/smokey-robinson-9460972"
+  },
+  {
+    "name": "Sidney Poitier",
+    "birth": "2.20.1927",
+    "about": "Bahamian American actor, director, and producer who broke the colour barrier in the U.S. motion-picture industry by becoming the first African American actor to win an Academy Award for best actor (for Lilies of the Field [1963]) and the first black movie star. He also redefined roles for African Americans by rejecting parts that were based on racial stereotypes.",
+    "link": "https://www.britannica.com/biography/Sidney-Poitier"
+  },
+  {
+    "name": "Nina Simone",
+    "birth": "2.21.1933",
+    "death": "4.21.2003",
+    "about": "one of the most gifted vocalists of her generation, and also one of the most eclectic. Simone was a singer, pianist, and songwriter who bent genres to her will rather than allowing herself to be confined by their boundaries; her work swung back and forth between jazz, blues, soul, classical, R&B, pop, gospel, and world music, with passion, emotional honesty, and a strong grasp of technique as the constants of her musical career.",
+    "link": "https://www.allmusic.com/artist/nina-simone-mn0000411761/biography"
+  },
 ];
 
 var now = new Date();
-var person = people[now.getDate() - 1];
+var person = people[now.getDate() - 1 + 4];
 var is_mobile = (window.innerWidth || body.innerWidth) < 700;
 var padding = is_mobile ? '16px' : '24px';
 
