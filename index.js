@@ -103,6 +103,18 @@ var people = [
     "about": "Two years into college, Burton was chosen for the lead role in the television miniseries Roots, which launched his career. In 1983, he became the host of PBS's Reading Rainbow, a show aimed at teaching young children to read that won five Emmy Awards over its more than 20-year run (1983-2009).",
     "link": "https://www.biography.com/people/levar-burton-538182"
   },
+  {
+    "name": "Michael Jordan",
+    "birth": "2.17.1963",
+    "about": "Although, a summary of his basketball career and influence on the game inevitably fails to do it justice, as a phenomenal athlete with a unique combination of fundamental soundness, grace, speed, power, artistry, improvisational ability and an unquenchable competitive desire, Jordan single-handedly redefined the NBA superstar.",
+    "link": "http://www.nba.com/history/players/jordan_bio.html"
+  },
+  {
+    "name": "Toni Morrison",
+    "birth": "2.18.1931",
+    "about": "American writer noted for her examination of black experience (particularly black female experience) within the black community. She received the Nobel Prize for Literature in 1993.",
+    "link": "https://www.britannica.com/biography/Toni-Morrison"
+  },
 ];
 
 var now = new Date();
