@@ -167,7 +167,7 @@ body.appendChild(happy_birthday);
 
 var person_name = document.createElement('div');
 person_name.style.color = '#000000';
-person_name.style.fontSize = is_mobile ? '4rem' : '5rem';
+person_name.style.fontSize = is_mobile ? '3.5rem' : '5rem';
 person_name.innerHTML = person.name;
 body.appendChild(person_name);
 
