@@ -1,37 +1,37 @@
-var people = [
+[
   {
-    'name': 'Langston Hughes',
-    'birth': '2.1.1902',
-    'death': '5.22.1967',
-    'about': 'Attended Columbia University, but left after one year to travel. His poetry was later promoted by Vachel Lindsay, and Hughes published his first book in 1926. He went on to write countless works of poetry, prose and plays, as well as a popular column for the Chicago Defender.',
-    'link': 'https://www.biography.com/people/langston-hughes-9346313'
+    "name": "Langston Hughes",
+    "birth": "2.1.1902",
+    "death": "5.22.1967",
+    "about": "Attended Columbia University, but left after one year to travel. His poetry was later promoted by Vachel Lindsay, and Hughes published his first book in 1926. He went on to write countless works of poetry, prose and plays, as well as a popular column for the Chicago Defender.",
+    "link": "https://www.biography.com/people/langston-hughes-9346313"
   },
   {
-    'name': 'William Artis',
-    'birth': '2.2.1914',
-    'death': '4.3.1977',
-    'about': 'Artis’ work, along with many other African American artists, helped create an artistic revival in the Black community at this time known as the Harlem Renaissance. Artis is known widely for his sculptures and busts. He studied sculpture and pottery under master sculptor Augusta Savage at the Augusta Savage Studios in the early 1930s.',
-    'link': 'http://thesource.com/2016/02/02/today-in-black-history-celebrating-sculptor-william-artis/'
+    "name": "William Artis",
+    "birth": "2.2.1914",
+    "death": "4.3.1977",
+    "about": "Artis’ work, along with many other African American artists, helped create an artistic revival in the Black community at this time known as the Harlem Renaissance. Artis is known widely for his sculptures and busts. He studied sculpture and pottery under master sculptor Augusta Savage at the Augusta Savage Studios in the early 1930s.",
+    "link": "http://thesource.com/2016/02/02/today-in-black-history-celebrating-sculptor-william-artis/"
   },
   {
-    'name': 'Dennis Edwards',
-    'birth': '2.3.1943',
-    'death': '2.1.2018',
-    'about': 'Became a lead singer of the Motown hitmakers the Temptations in 1968 as they embraced psychedelic funk and won Grammy Awards for the songs \'Papa Was a Rollin’ Stone\' and \'Cloud Nine,\'',
-    'link': 'https://www.nytimes.com/2018/02/02/obituaries/dennis-edwards-former-temptations-lead-singer-dies-at-74.html'
+    "name": "Dennis Edwards",
+    "birth": "2.3.1943",
+    "death": "2.1.2018",
+    "about": "Became a lead singer of the Motown hitmakers the Temptations in 1968 as they embraced psychedelic funk and won Grammy Awards for the songs \"Papa Was a Rollin’ Stone\" and \"Cloud Nine,\"",
+    "link": "https://www.nytimes.com/2018/02/02/obituaries/dennis-edwards-former-temptations-lead-singer-dies-at-74.html"
   },
   {
-    'name': 'Rosa Parks',
-    'birth': '2.4.1913',
-    'death': '10.24.2005',
-    'about': 'Was nationally recognized as the \'mother of the modern day civil rights movement\' in America. Her refusal to surrender her seat to a white male passenger on a Montgomery, Alabama bus, December 1, 1955, triggered a wave of protest December 5, 1955 that reverberated throughout the United States.',
-    'link': 'http://www.rosaparks.org/biography/'
+    "name": "Rosa Parks",
+    "birth": "2.4.1913",
+    "death": "10.24.2005",
+    "about": "Was nationally recognized as the \"mother of the modern day civil rights movement\" in America. Her refusal to surrender her seat to a white male passenger on a Montgomery, Alabama bus, December 1, 1955, triggered a wave of protest December 5, 1955 that reverberated throughout the United States.",
+    "link": "http://www.rosaparks.org/biography/"
   },
   {
-    'name': 'Hank Aaron',
-    'birth': '2.5.1934',
-    'about': 'Major league baseball\'s leading home run hitter, with a career total of 755 home runs from 1954 to 1976. He also broke ground for the participation of African Americans in professional sports.',
-    'link': 'https://www.notablebiographies.com/A-An/Aaron-Hank.html'
+    "name": "Hank Aaron",
+    "birth": "2.5.1934",
+    "about": "Major league baseball's leading home run hitter, with a career total of 755 home runs from 1954 to 1976. He also broke ground for the participation of African Americans in professional sports.",
+    "link": "https://www.notablebiographies.com/A-An/Aaron-Hank.html"
   },
   {
     "name": "Melvin Tolson",
@@ -60,11 +60,12 @@ var people = [
     "link": "http://www.fembio.org/english/biography.php/woman/biography/alice-walker/"
   },
   {
-    "name": "Leontyne Price",
+    "name": "Leotyne Price",
     "birth": "2.10.1927",
     "about": "Was the first African American singer to gain international stardom in opera, an art form previously reserved for the upper-class white society.",
     "link": "https://www.notablebiographies.com/Pe-Pu/Price-Leontyne.html"
-  },{
+  },
+  {
     "name": "Daniel James",
     "birth": "2.11.1920",
     "death": "2.25.1978",
@@ -131,7 +132,7 @@ var people = [
     "name": "Nina Simone",
     "birth": "2.21.1933",
     "death": "4.21.2003",
-    "about": "One of the most gifted vocalists of her generation, and also one of the most eclectic. Simone was a singer, pianist, and songwriter who bent genres to her will rather than allowing herself to be confined by their boundaries; her work swung back and forth between jazz, blues, soul, classical, R&B, pop, gospel, and world music, with passion, emotional honesty, and a strong grasp of technique as the constants of her musical career.",
+    "about": "one of the most gifted vocalists of her generation, and also one of the most eclectic. Simone was a singer, pianist, and songwriter who bent genres to her will rather than allowing herself to be confined by their boundaries; her work swung back and forth between jazz, blues, soul, classical, R&B, pop, gospel, and world music, with passion, emotional honesty, and a strong grasp of technique as the constants of her musical career.",
     "link": "https://www.allmusic.com/artist/nina-simone-mn0000411761/biography"
   },
   {
@@ -140,86 +141,46 @@ var people = [
     "about": "Was the dominant player of his era and an innovator who changed the way the game was played. He was a wizard with the ball, performing feats never before seen: midair spins and whirls punctuated by powerful slam dunks.",
     "link": "http://www.nba.com/history/legends/profiles/julius-erving"
   },
-];
-
-var now = new Date();
-var person = people[now.getDate() - 1];
-var is_mobile = (window.innerWidth || body.innerWidth) < 700;
-var padding = is_mobile ? '16px' : '24px';
-
-// set the background
-var body = document.body;
-body.style.backgroundImage = 'url(\'/img/' + person.name.split(' ').join('') + '.jpg\')';
-body.style.padding = padding;
-
-// draw the other things
-var opaque = document.createElement('div');
-opaque.style = `
-  width: 100%;
-  height: 100%;
-  background-color: grey;
-  opacity: 0.7;
-  position: absolute;
-  top: 0;
-  left: 0;
-`;
-body.appendChild(opaque)
-
-var happy_birthday = document.createElement('div');
-happy_birthday.style.color = '#000000';
-happy_birthday.style.fontSize = is_mobile ? '2.5rem' : '3rem';
-happy_birthday.innerHTML = 'Happy Birthday'
-body.appendChild(happy_birthday);
-
-var person_name = document.createElement('div');
-person_name.style.color = '#000000';
-person_name.style.fontSize = is_mobile ? '3.5rem' : '5rem';
-person_name.innerHTML = person.name;
-body.appendChild(person_name);
-
-var dates = document.createElement('div');
-dates.innerHTML = person.birth + (person.death ? ' &mdash; ' + person.death : '');
-dates.style.color = '#000000';
-dates.style.fontSize = '1.5rem';
-body.appendChild(dates);
-
-var bio = document.createElement('div');
-bio.innerHTML = person.about;
-bio.style.width = is_mobile ? '100%' : '50%';
-bio.style.fontSize = is_mobile ? '1.2rem' : '1.5rem';
-bio.style.fontWeight = '400';
-bio.style.lineHeight = '1.5';
-bio.style.margin = is_mobile ? '16px 0' : '32px 0';
-body.appendChild(bio);
-
-var read_more = document.createElement('a');
-read_more.innerHTML = 'read more';
-read_more.href = person.link;
-read_more.style = `
-  text-decoration: none;
-  color: #000000;
-  font-weight: bold;
-  font-size: 1rem;
-`;
-body.appendChild(read_more);
-
-var bottom_right = document.createElement('div');
-bottom_right.innerHTML = 'February is<br>Black History Month.';
-bottom_right.style.color = '#000000';
-bottom_right.style.fontSize = is_mobile ? '1.5rem' : '2rem';
-bottom_right.style.position = 'absolute';
-bottom_right.style.right = is_mobile ? '16px' : '24px';
-bottom_right.style.bottom = is_mobile ? '16px' : '24px';
-bottom_right.style.textAlign = 'right';
-body.appendChild(bottom_right);
-
-var bottom_left = document.createElement('a');
-bottom_left.innerHTML = 'feedback';
-bottom_left.href = 'mailto:blackbirthdays@gmail.com';
-bottom_left.style.textDecoration = 'none';
-bottom_left.style.color = '#000000';
-bottom_left.style.position = 'absolute';
-bottom_left.style.left = padding;
-bottom_left.style.bottom = padding;
-bottom_left.style.fontWeight = '400';
-body.appendChild(bottom_left);
+  {
+    "name": "W.E.B. Du Bois",
+    "birth": "",
+    "death": "",
+    "about": "",
+    "link": ""
+  },
+  {
+    "name": "Floyd Mayweather, Jr.",
+    "birth": "",
+    "death": "",
+    "about": "",
+    "link": ""
+  },
+  {
+    "name": "Donald Quarrie",
+    "birth": "",
+    "death": "",
+    "about": "",
+    "link": ""
+  },
+  {
+    "name": "Antoine Dominique \"fats\" Domino",
+    "birth": "",
+    "death": "",
+    "about": "",
+    "link": ""
+  },
+  {
+    "name": "Marian Anderson",
+    "birth": "",
+    "death": "",
+    "about": "",
+    "link": ""
+  },
+  {
+    "name": "Charles Aaron \"Bubba\" Smith",
+    "birth": "",
+    "death": "",
+    "about": "",
+    "link": ""
+  }
+]
