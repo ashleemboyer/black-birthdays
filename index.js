@@ -140,16 +140,29 @@ var people = [
     "about": "Was the dominant player of his era and an innovator who changed the way the game was played. He was a wizard with the ball, performing feats never before seen: midair spins and whirls punctuated by powerful slam dunks.",
     "link": "http://www.nba.com/history/legends/profiles/julius-erving"
   },
+  {
+    "name": "W.E.B. Du Bois",
+    "birth": "2.23.1868",
+    "death": "8.27.1963",
+    "about": "Wrote extensively and was the best known spokesperson for African-American rights during the first half of the 20th century. He co-founded the National Association for the Advancement of Colored People (NAACP) in 1909.",
+    "link": "https://www.biography.com/people/web-du-bois-9279924"
+  },
+  {
+    "name": "Floyd Mayweather Jr.",
+    "birth": "2.24.1977",
+    "about": "American boxer whose combination of speed, power, and technical prowess made him one of the best pound-for-pound fighters of all time.",
+    "link": "https://www.britannica.com/biography/Floyd-Mayweather-Jr"
+  },
 ];
 
 var now = new Date();
-var person = people[now.getDate() - 1];
+var person = people[now.getDate() - 1 + 1];
 var is_mobile = (window.innerWidth || body.innerWidth) < 700;
 var padding = is_mobile ? '16px' : '24px';
 
 // set the background
 var body = document.body;
-body.style.backgroundImage = 'url(\'/img/' + person.name.split(' ').join('') + '.jpg\')';
+body.style.backgroundImage = 'url(\'/img/' + person.name.replace('.', '').split(' ').join('') + '.jpg\')';
 body.style.padding = padding;
 
 // draw the other things
