@@ -153,10 +153,38 @@ var people = [
     "about": "American boxer whose combination of speed, power, and technical prowess made him one of the best pound-for-pound fighters of all time.",
     "link": "https://www.britannica.com/biography/Floyd-Mayweather-Jr"
   },
+  {
+    "name": "Donald Quarrie",
+    "birth": "",
+    "death": "",
+    "about": "",
+    "link": ""
+  },
+  {
+    "name": "Antoine Dominique \"fats\" Domino",
+    "birth": "",
+    "death": "",
+    "about": "",
+    "link": ""
+  },
+  {
+    "name": "Marian Anderson",
+    "birth": "",
+    "death": "",
+    "about": "",
+    "link": ""
+  },
+  {
+    "name": "Charles Aaron \"Bubba\" Smith",
+    "birth": "",
+    "death": "",
+    "about": "",
+    "link": ""
+  }
 ];
 
 var now = new Date();
-var person = people[now.getDate() - 1 + 1];
+var person = people[now.getDate() - 1];
 var is_mobile = (window.innerWidth || body.innerWidth) < 700;
 var padding = is_mobile ? '16px' : '24px';
 
