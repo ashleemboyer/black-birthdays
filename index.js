@@ -64,7 +64,8 @@ var people = [
     "birth": "2.10.1927",
     "about": "Was the first African American singer to gain international stardom in opera, an art form previously reserved for the upper-class white society.",
     "link": "https://www.notablebiographies.com/Pe-Pu/Price-Leontyne.html"
-  },{
+  },
+  {
     "name": "Daniel James",
     "birth": "2.11.1920",
     "death": "2.25.1978",
@@ -155,36 +156,35 @@ var people = [
   },
   {
     "name": "Donald Quarrie",
-    "birth": "",
-    "death": "",
-    "about": "",
-    "link": ""
+    "birth": "2.25.1951",
+    "about": "Regarded as one of the finest sprinters in the history of track and field. He is also considered the greatest runner around the bend.",
+    "link": "https://jamaicans.com/jasports_donquarrie/"
   },
   {
-    "name": "Antoine Dominique \"fats\" Domino",
-    "birth": "",
-    "death": "",
-    "about": "",
-    "link": ""
+    "name": "Antoine Domino",
+    "birth": "2.26.1928",
+    "death": "10.24.2017",
+    "about": "Counted among rock 'n' roll’s pioneers, and in his heyday during the 1950s he racked up more than 100 combined Billboard pop and rhythm and blues hits.",
+    "link": "https://www.biography.com/news/fats-domino-obituary"
   },
   {
     "name": "Marian Anderson",
-    "birth": "",
-    "death": "",
-    "about": "",
-    "link": ""
+    "birth": "2.27.1897",
+    "death": "4.8.1993",
+    "about": "Deemed one of the finest contraltos of her time, Marian Anderson became the first African American to perform with the New York Metropolitan Opera in 1955.",
+    "link": "https://www.biography.com/people/marian-anderson-9184422"
   },
   {
-    "name": "Charles Aaron \"Bubba\" Smith",
-    "birth": "",
-    "death": "",
-    "about": "",
-    "link": ""
+    "name": "Charles Smith",
+    "birth": "2.28.1945",
+    "death": "8.3.2011",
+    "about": "Impressed many fans as much for his role as the soft-spoken Moses Hightower in six Police Academy films (1984–89) as he did during his nine seasons (1967–76) as an NFL defensive lineman.",
+    "link": "https://www.britannica.com/biography/Bubba-Smith"
   }
 ];
 
 var now = new Date();
-var person = people[now.getDate() - 1];
+var person = people[now.getDate() - 1 + 3];
 var is_mobile = (window.innerWidth || body.innerWidth) < 700;
 var padding = is_mobile ? '16px' : '24px';
 
