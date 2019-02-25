@@ -184,7 +184,7 @@ var people = [
 ];
 
 var now = new Date();
-var person = people[now.getDate() - 1 + 3];
+var person = people[now.getDate() - 1];
 var is_mobile = (window.innerWidth || body.innerWidth) < 700;
 var padding = is_mobile ? '16px' : '24px';
 
