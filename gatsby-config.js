@@ -1,5 +1,4 @@
 module.exports = {
-  pathPrefix: '/',
   siteMetadata: {
     title: `Black Birthdays`,
     description: `February is Black History Month.`,
@@ -17,15 +16,15 @@ module.exports = {
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     {
-      resolve: `gatsby-plugin-manifest`,
+      resolve: 'gatsby-plugin-manifest',
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
-        start_url: `/`,
-        background_color: `#000000`,
-        theme_color: `#eeeeee`,
-        display: `minimal-ui`,
-        icon: `src/images/icon.png`, // This path is relative to the root of the site.
+        name: 'Black Birthdays',
+        short_name: '',
+        start_url: '/',
+        background_color: '#000000',
+        theme_color: '#eeeeee',
+        display: 'standalone',
+        icon: 'src/images/icon.png',
       },
     },
     {
