@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: '/',
   siteMetadata: {
     title: `Black Birthdays`,
     description: `February is Black History Month.`,
