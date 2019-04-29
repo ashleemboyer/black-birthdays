@@ -14,7 +14,7 @@ const typography = new Typography({
       styles: [
         '400'
       ]
-    }
+    },
   ],
   headerWeight: '400',
   headerFontFamily: [

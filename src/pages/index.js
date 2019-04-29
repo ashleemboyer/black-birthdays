@@ -3,6 +3,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Link, StaticQuery, graphql } from "gatsby";
 import Image from "../components/image"
+import { TiArrowRight } from "react-icons/ti"
 
 export default class Index extends Component {
   constructor(props) {
@@ -66,7 +67,7 @@ export default class Index extends Component {
                           }}
                           src={node.context.name.replace(/ |\./g, '') + '.jpg'}
                         />
-                        <p style={{
+                        <div style={{
                           height: '32px',
                           lineHeight: '32px',
                           verticalAlign: 'middle',
@@ -74,10 +75,23 @@ export default class Index extends Component {
                           color: 'white',
                           backgroundColor: '#212121',
                           borderRadius: '0 0 2px 2px',
+                          paddingRight: '12px',
                         }}
                         >
-                          {node.context.name}
-                        </p>
+                          <TiArrowRight size='24px' style={{
+                            height: '32px',
+                            lineHeight: '32px',
+                            verticalAlign: 'middle',
+                            float: 'right',
+                            marginLeft: '8px',
+                          }}/>
+                          <p style={{
+                            height: '32px',
+                            lineHeight: '32px',
+                            verticalAlign: 'middle',
+                            float: 'right',
+                          }}>{node.context.name}</p>
+                        </div>
                         <div
                           onMouseEnter={(e) => e.target.style.opacity = '0.2'}
                           onMouseLeave={(e) => e.target.style.opacity = '0'}
