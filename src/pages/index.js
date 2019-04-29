@@ -40,7 +40,7 @@ export default class Index extends Component {
         `}
         render={data => (
           <Layout>
-            <SEO title="Home" keywords={['gatsby', 'application', 'react', 'birthdays', 'black', 'history', 'month']} />
+            <SEO image="header.png" title="Home" keywords={['gatsby', 'application', 'react', 'birthdays', 'black', 'history', 'month']} />
             <div style={{ textAlign: 'center' }}>
               {
                 data.allSitePage.edges.filter(({ node }) => {

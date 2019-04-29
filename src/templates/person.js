@@ -8,7 +8,7 @@ export default ({ data }) => {
   var person = data.allSitePage.edges[0].node.context
   return (
     <Layout>
-      <SEO title={person.name} keywords={['gatsby', 'application', 'react', 'birthdays', 'black', 'history', 'month', 'dennis', 'edwards']} />
+      <SEO image={person.name.replace(/ |\./g, '') + '.jpg'} title={person.name} keywords={['gatsby', 'application', 'react', 'birthdays', 'black', 'history', 'month', 'dennis', 'edwards']} />
       <div style={{ maxWidth: '700px', margin: '0 auto', padding: '16px' }}>
         <h1>{person.name}</h1>
         <h3>{person.birth} &mdash; {person.death}</h3>
