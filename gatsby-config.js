@@ -32,7 +32,12 @@ module.exports = {
       options: {
         implementation: require('sass')
       }
-    },{
+    },
+    {
+      resolve: 'gatsby-plugin-google-analytics',
+      trackingId: 'UA-129788768-2',
+    },
+    {
       resolve: 'gatsby-plugin-typography',
       options: {
         pathToConfigModule: `src/utils/typography`,
